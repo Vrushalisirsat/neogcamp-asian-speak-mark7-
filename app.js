@@ -2,7 +2,7 @@ var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
 var OutputDiv = document.querySelector("#output");
 
-var serverURL = "https://api.funtranslations.com/translate/asian-accent.json"
+var serverURL = "https://api.funtranslations.com/translate/southern-accent.json"
 
 function getTranslationURL(text)
 {
