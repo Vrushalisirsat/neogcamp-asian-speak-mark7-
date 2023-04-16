@@ -2,7 +2,7 @@ var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
 var OutputDiv = document.querySelector("#output");
 
-var serverURL = "https://api.funtranslations.com/translate/minion.json"
+var serverURL = "https://api.funtranslations.com/translate/asian-accent.json"
 
 function getTranslationURL(text)
 {
@@ -15,7 +15,7 @@ function errorHandler(error){
 }
 
 function clickHandler() {
-//  OutputDiv.innerText = "aaaaaaaaaaaaaaaaaa  " + txtInput.value;
+
 
 var inputText = txtInput.value;       //taking input
 
